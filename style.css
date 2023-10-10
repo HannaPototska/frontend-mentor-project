@@ -68,3 +68,10 @@ body {
 .visual {
     background-color: hsl(234, 85%, 45%, 0.128);
 }
+
+.summary button {
+    background-color: hsl(224, 30%, 27%);
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+}
