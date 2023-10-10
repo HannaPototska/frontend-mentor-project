@@ -42,3 +42,29 @@ body {
     border-radius: 50%;
 
 }
+
+.summary {
+    height: 60%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+}
+.summary div {
+    height: 55px;
+    /* background-color: aqua; */
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.128);
+}
+.memory {
+    background-color: hsl(39, 100%, 56%, 0.128);
+}
+.verbal {
+    background-color: hsl(166, 100%, 37%, 0.128);
+}
+.visual {
+    background-color: hsl(234, 85%, 45%, 0.128);
+}
