@@ -81,24 +81,72 @@ body {
 }
 
 .reaction {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: hsla(0, 100%, 67%, 0.082);
 }
+
+.react {
+    position: relative;
+    left: -50px;
+    color: var(--red-color);
+}
+
+.numbers {
+    color: hsla(224, 30%, 27%, 0.468);
+}
+.numbers span {
+    color: hsla(224, 30%, 27%);
+}
 .memory {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: hsl(39, 100%, 56%, 0.082);
 }
+
+.memor {
+    position: relative;
+    left: -50px;
+    color: var(--orange-color);
+}
 .verbal {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: hsla(166, 100%, 37%, 0.082);
 }
+.verb {
+    position: relative;
+    left: -55px;
+    color: var(--green-color);
+}
 .visual {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: hsl(234, 85%, 45%, 0.082);
     
+}
+.vis {
+    position: relative;
+    left: -56px;
+    color: var(--blue-color);
 }
 
 .summary button {
     background-color: hsl(224, 30%, 27%);
-    height: 65px;
+    height: 60px;
     border-radius: 30px;
     border: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 0;
 }
 
 
