@@ -48,30 +48,66 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px;
+    gap: 20px 0;
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
 }
 .summary div {
-    height: 55px;
-    /* background-color: aqua; */
+    height: 60px;
+    border-radius: 10px;
 }
 
 .reaction {
-    background-color: hsla(0, 100%, 67%, 0.128);
+    background-color: hsla(0, 100%, 67%, 0.082);
 }
 .memory {
-    background-color: hsl(39, 100%, 56%, 0.128);
+    background-color: hsl(39, 100%, 56%, 0.082);
 }
 .verbal {
-    background-color: hsl(166, 100%, 37%, 0.128);
+    background-color: hsla(166, 100%, 37%, 0.082);
 }
 .visual {
-    background-color: hsl(234, 85%, 45%, 0.128);
+    background-color: hsl(234, 85%, 45%, 0.082);
+    
 }
 
 .summary button {
     background-color: hsl(224, 30%, 27%);
-    height: 60px;
+    height: 65px;
     border-radius: 30px;
     border: none;
+}
+
+
+@media screen and (min-width: 992px) {
+
+    body {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        
+    }
+    .maincontainer {
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        background-color: beige;
+
+    }
+
+    .result{
+        height: 100%;
+        width: 50%;
+        border-radius: 30px;
+    }
+
+    .circle {
+        width: 52%;
+        height: 45%;
+        border-radius: 50%;
+    }
 }
